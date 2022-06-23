@@ -178,6 +178,88 @@ section {
     margin:0%
     }
 
+.section-novedades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 40px 40px;
+    background-color: darkkhaki;
+}    
+
+.section-novedades h2 {
+    margin: 80px 0px 100px 30px ;
+    padding: 0%;
+    color: rgb(15, 3, 3);
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.container-cards {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 330px;
+    height: 430px;
+    box-shadow: 10px 10px 37px -11px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 37px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 37px -11px rgba(0,0,0,0.75);
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
+    border-radius: 25px;
+    transition: transform 400ms ease-in-out;
+
+}
+
+.card img {
+    width: 70%;
+}
+
+.card h3 {
+    color: floralwhite;
+    padding: 10px;
+
+}
+
+.card p {
+    color: floralwhite;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.card button {
+    width: 45%;
+    height: 30px;
+    color: white;
+    background-color:blue ;
+    border: 0;
+    outline: 0;
+    text-transform: uppercase;
+    min-width: 100px;
+}
+.card button:hover {
+    cursor: pointer;
+    background-color: #fefae0;
+    color: black;
+    transition: all 1.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
 .item-footer {
     height: 100px;
     width: 100px;
